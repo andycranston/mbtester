@@ -89,7 +89,7 @@ takes the appropriate action.
 
 Chances are you will need to edit the `mbcommands.txt` file and change the IP address on
 the `tcpip-address`.  Also the `slave-id`, `starting-reg` and `reg-count` will
-probably need to be changed depending on layout of the Modbus map on the
+probably need to be changed depending on the layout of the Modbus map on the
 device you are connecting to.
 
 ## mbcommands.txt file
@@ -238,7 +238,7 @@ Clicks the "Exit" button.
 One argument required.  Append the current result values (10 in total)
 to the file name argument.  Use CSV (comma seperated values) format.
 The results are printed to the screen as well.
-If the file name argument does not exist it is created.
+If the file name does not exist it is created.
 
 Example:
 
@@ -301,7 +301,7 @@ NOT for production use!!!
 The program does minimal error checking of the `mbcommands.txt` file.  Bad and missing
 values in this file will break the program easily.  The code has been kept minimal
 as the primary use is to demonstrate the concept of adding extra functionality to
-a Windows program using software automation.  Through error checking code
+a Windows program using software automation.  Lots of error checking code
 would get in the way :-]
 
 ----------------------------------------
