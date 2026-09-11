@@ -1,0 +1,19 @@
+;;
+;; Generic Modbus/Jbus Tester commands
+;;
+
+port-tcpip
+tcpip-address 192.168.1.4
+sample-mode-manual
+timeout 2000
+sample-rate 1000
+data-type-hold-reg
+slave-id 1
+starting-reg 2049
+reg-count 8
+display-mode-hex
+protocol-modbus
+
+results-loop results.csv 10.0 1.0
+
+;; end of file
